@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <title>Index</title>
+       <style>
+           table{
+               /*margin: 20px;*/
+               width: 100%; 
+               
+           }
+       table, td, th{
+           /*dotted= pontilhado, dashed, solid, double, 
+           groove, ridge, inset, outset, none, hidden*/
+           border: 1px  solid black;
+           border-collapse: collapse;
+           /*border-style: dotted dashed solid double;*/
+       }
+       /*nth-child pega a linha que você indica
+       even = par*/
+       tr:nth-child(1){
+        background-color: coral;
+       }
+       td{
+           text-align: center;
+           padding: 10px;
+          
+       }
+       
+       
+       </style>
+       </head>
+    <body>
+        <h1>Tabelas em HTML</h1>
+
+        <!--th é o cabeçalho, tr é as cedulas-->
+        <table>
+            <tr>
+         <th>Empresas</th>
+         <th>Setor</th>
+         <th colspan="2">Cidade</th>
+            </tr>
+            <tr>
+               <td>Nestlé</td>
+               <td>Alimentício</td>
+               <td>Ituiutaba</td> 
+               <td>Canapólis</td>
+            </tr>
+            <tr>
+                <td>Algar</td>
+                <td>Comunicações</td>
+                <td>Uberlândia</td>
+                <td>Centralina</td>
+            </tr>
+            <tr>
+                <td>Coca-Cola</td>
+                <td>Bebidas</td>
+                <td>New York</td>
+                <td>Santa Vitória</td>
+            </tr>
+        </table>
+    </body>
+</html>

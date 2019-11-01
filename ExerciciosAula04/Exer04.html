@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding: 10px;
+            grid-row-gap: 10px;
+            grid-column-gap: 30px;
+        }
+
+        .grid-container>div {
+            text-align: center;
+            /*border: 1px solid black;*/
+
+        }
+
+        .grid-item-1 {
+            background-color: #a8b5c5;
+            grid-column: 1/5;
+            border-radius: 3px;
+            /*display: flex so pode ficar no grid item e nao no container*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            padding-top: 20px;
+            padding-bottom: 60px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        .grid-item-2 {
+            background-color: #DC5450;
+            border-radius: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 0px;
+        }
+
+        .grid-item-3 {
+            background-color: #BEE57C;
+            border-radius: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .grid-item-4 {
+            background-color: #8397E1;
+            border-radius: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .grid-item-5 {
+            background-color: #9275a1;
+            border-radius: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-right: 0px;
+        }
+
+        .grid-item-6 {
+            background-color: #D5972E;
+            border-radius: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 0px;
+        }
+
+        .grid-item-7 {
+            background-color: #D576D3;
+            border-radius: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .grid-item-8 {
+            background-color: #69CBD9;
+            border-radius: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .grid-item-9 {
+            background-color: #EBE528;
+            border-radius: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-right: 0px;
+        }
+
+        .grid-item-10 {
+            background-color: #a8b5c5;
+            grid-column: 1/5;
+            border-radius: 3px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            padding-top: 20px;
+            padding-bottom: 60px;
+            font-size: 10px;
+            margin-left: 0px;
+        }
+
+        h3 {
+            padding-left: 30px;
+            text-align: left;
+        }
+
+        p {
+            padding-left: 30px;
+            padding-right: 25px;
+            margin-top:-10px;
+            text-align: left;
+            font-size: 10px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <div class="grid-item-1">Ionic Technologies</div>
+        <div class="grid-item-2">
+            <h3>Angular</h3>
+            <p>Front-end development framework</p>
+        </div>
+        <div class="grid-item-3">
+            <h3>Ionic Native</h3>
+            <p>Apache Cordova compatible plugins</p>
+        </div>
+        <div class="grid-item-4">
+            <h3>TypeScript</h3>
+            <p>Superset of JavaScript</p>
+        </div>
+        <div class="grid-item-5">
+            <h3>Sass</h3>
+            <p>Object oriented CSS</p>
+        </div>
+        <div class="grid-item-6">
+            <h3>HTML 5</h3>
+            <p>Semantic Mark-up and related API's</p>
+        </div>
+        <div class="grid-item-7">
+            <h3>Ionic CLI</h3>
+            <p>The engine behind the framework</p>
+        </div>
+        <div class="grid-item-8">
+            <h3>Stencil</h3>
+            <p>Web component generator</p>
+        </div>
+        <div class="grid-item-9">
+            <h3>Web Components</h3>
+            <p>Self-packaged modules</p>
+        </div>
+        <div class="grid-item-10">Footer</div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #container {
+            margin: 0 auto;
+            width: 60%;
+            background-color: rgb(66, 218, 218);
+
+
+        }
+
+        .slider {
+            height: 25px;
+            width: 60%;
+            background: #d3d3d3;
+            outline: none;
+            cursor: pointer;
+            margin-left: 30px;
+        }
+
+        #layoutCima {
+            margin: 0 auto;
+            width: 400px;
+            height: 300px;
+            text-align: center;
+            background-color: grey;
+        }
+
+        #area {
+            margin-top: 37px;
+            width: 280px;
+            height: 220px;
+        }
+
+        #layoutBaixo {
+            margin: 0 auto;
+            width: 300px;
+
+        }
+
+        .pB {
+
+            display: block;
+            margin-top: 2px;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            float: right;
+            margin-right: 30px;
+        }
+    </style>
+    <script type="text/javascript" src="myscript.js"></script>
+    <title>Ex01</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="layoutCima">
+            <textarea id="area">
+
+            </textarea>
+
+        </div>
+
+        <div id="layoutBaixo">
+            <input onchange="atualizaTopLeft()" type="range" min="0" max="100" value="0" class="slider" id="slider1">
+            <p id="TopLeft" class="pB"></p>
+            <input onchange="atualizaTopRight()" type="range" min="0" max="100" value="0" class="slider" id="slider2">
+            <p id="TopRight" class="pB"></p>
+            <input onchange="atualizaBotRight()" type="range" min="0" max="100" value="0" class="slider" id="slider3">
+            <p id="BotRight" class="pB"></p>
+            <input onchange="atualizaBotLeft()" type="range" min="0" max="100" value="0" class="slider" id="slider4">
+            <p id="BotLeft" class="pB"></p>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
+
+</html>

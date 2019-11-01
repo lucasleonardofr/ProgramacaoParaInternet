@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Sobre mim</h1><br>
+    <p id="conteudo1">
+        Meu nome é Lucas Leonardo, sou cientista da computação.
+    </p>
+    <p id="conteudo2">
+        Sou torcerdor do São Paulo, gosto de pizza.
+    </p>
+
+    <p id="conteudo3">
+        Preciso dormir mais algumas horas.
+    </p>
+    <button onclick="changeFonte()">Mudar cor fonte</button>
+    <button onclick="changeCor()">Mudar cor fundo</button>
+
+
+    <script>
+        function changeFonte() {
+            document.getElementById("conteudo1").style.color = "yellow";
+            document.getElementById("conteudo2").style.color = "yellow";
+            document.getElementById("conteudo3").style.color = "yellow";
+
+        }
+        function changeCor() {
+            document.getElementById("conteudo1").style.backgroundColor = "red";
+            document.getElementById("conteudo2").style.backgroundColor = "red";
+            document.getElementById("conteudo3").style.backgroundColor = "red";
+
+        }
+    </script>
+
+
+</body>
+
+</html>

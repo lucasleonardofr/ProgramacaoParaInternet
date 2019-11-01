@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercicio 03</title>
+    <style>
+        body {
+            background-color: #f3f3f3;
+            margin-top: 0;
+        }
+
+        .titAur {
+            width: 40%;
+            float: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+
+        }
+
+        .Sec {
+            width: 60%;
+            float: left
+        }
+
+        .titSeg {
+            color: rgb(114, 114, 114);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+           /*font-weight: bold;*/
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        .textPort {
+            width: 30%;
+            float: left;
+            /*border-style trabalha na seguinte sequencia: top, right, bottom e left*/
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: right;
+            margin-top: 15px;
+
+        }
+
+        .jpegs {
+            width: 70%;
+            float: right;
+            margin-top: 15px;
+        }
+
+        img {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        b {
+            color: black;
+        }
+
+        li.menu {
+            display: inline-block;
+            margin-left: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        li.img {
+            display: inline-block;
+            margin-left: 40px;
+            margin-bottom: 60px;
+            border: 5px double #aaa;
+
+        }
+
+        hr.first {
+            border-color: rgb(245, 245, 245);
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        hr.second {
+            box-sizing: border-box;
+            width: 100%;
+            border-style: none none dotted none;
+            border-color: #aaa;
+            padding-bottom: 10px
+        }
+
+        esp {
+            color: #aaa;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        esp.textMenu {
+            color: #aaa;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        p {
+            padding-top: 10px;
+            font-size: 14px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="titAur">
+            Aurelius
+        </div>
+        <div class="Sec">
+            <ul>
+                <li class="menu">
+                    <esp class="textMenu">Homepage</esp><br>
+                    <b>HOME</b>
+                </li>
+                <li class="menu">
+                    <esp class="textMenu">Who are we?</esp><br>
+                    <b>ABOUT</b>
+                </li>
+                <li class="menu">
+                    <esp class="textMenu">Our latest work</esp><br>
+                    <b>PORTFOLIO</b>
+                </li>
+                <li class="menu">
+                    <esp class="textMenu">Latest news</esp><br>
+                    <b>BLOG</b>
+                </li>
+                <li class="menu">
+                    <esp class="textMenu">Get in touch</esp><br>
+                    <b>CONTACT US</b>
+                </li>
+
+            </ul>
+        </div>
+        <hr class="first">
+        </hr>
+        <div class="titSeg">
+            Our <b>portfolio</b>, home to our latest, and greatest work.
+        </div>
+        <hr class="first">
+        </hr>
+    </header>
+
+    <article>
+        <div class="textPort">
+            <esp>Cross-browser tested</esp><br>
+            <text><b style="font-size: 20px">Web Design</b></text>
+            <hr class="second">
+            </hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit natoque, aenean dui iaculis libero sodales fames
+                mi, id sagittis metus habitasse potenti vehicula finibus. Sagittis lacus mi tellus interdum blandit
+                curae litora, mauris eget per phasellus vehicula fames.<br>
+                ㄥㄩ匚卂丂 ㄥ乇ㄖ几卂尺ᗪㄖ
+        </div>
+        <div class=" espaco"></div>
+        <div class="jpegs">
+            <ul>
+                <li class="img"><img src="pizza.jpg"></li>
+                <li class="img"><img src="pizza.jpg"></li>
+                <li class="img"><img src="pizza.jpg"></li>
+                <li class="img"><img src="pizza.jpg"></li>
+                <li class="img"><img src="pizza.jpg"></li>
+                <li class="img"><img src="pizza.jpg"></li>
+                <li class="img"><img src="pizza.jpg"></li>
+                <li class="img"><img src="pizza.jpg"></li>
+                <li class="img"><img src="pizza.jpg"></li>
+            </ul>
+        </div>
+
+    </article>
+
+
+</body>
+
+</html>

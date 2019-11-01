@@ -1,0 +1,24 @@
+//exer03.js
+function gerarInformacoes() {
+  var div = document.createElement("p");
+  //var conteudo = document.createTextNode("p");
+  //div.appendChild(conteudo);
+  //div.style.width = "250px";
+  //div.style.height = "100px";
+  //div.style.background = "red";
+  div.className = "divEstilizada";
+  document.getElementById("container").appendChild(div);
+  alert("text");
+
+  //var tituloTorneio = document.getElementById("nomeT").value;
+  //alert(tituloTorneio);
+
+  //var dataInicio = document.getElementById("dateI").value;
+  //alert(dataInicio);
+
+  //var dataFim = document.getElementById("dateF").value;
+  //alert(dataFim);
+
+  //var numParticipantes = document.getElementById("numberP").value;
+  //alert(numParticipantes);
+}

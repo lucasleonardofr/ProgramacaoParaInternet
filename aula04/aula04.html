@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color:lightblue;
+            padding: 10px;
+            grid-row-gap: 10px;
+            grid-column-gap: 30px;
+        }
+        .grid-container > div{
+            background-color: rgb(212, 211, 211);
+            text-align: center;
+            border: 1px solid black;
+          
+        }
+        .grid-item-1{
+            /*linha que começa pra estender*/
+            grid-row-start: 1;
+         /*linha que finaliza pra estender*/
+            grid-row-end: 3; 
+            /*Faz o mesmo que os dois de cima*/
+            grid-row: 1/4;
+            height: 300px;
+            border-radius: 15px;
+            /*display: flex so pode ficar no grid item e nao no container*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-item-8{
+            grid-column: 2/5;
+            background-color: chocolate;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            
+            <div class="grid-item-1">1</div>
+            <div class="grid-item-2">2</div>
+            <div class="grid-item-3">3</div>
+            <div class="grid-item-4">4</div>
+            <div class="grid-item-5">5</div>
+            <div class="grid-item-6">6</div>
+            <div class="grid-item-7">7</div>
+            <div class="grid-item-8">8</div>
+
+        </div>
+    </body>
+</html>

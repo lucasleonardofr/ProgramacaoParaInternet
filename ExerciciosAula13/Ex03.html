@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Torneio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="exer03.js"></script>
+    <style>
+        body {
+            background-color: #272A33;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        #myForm {
+            margin: 30px auto;
+            width: 440px;
+            color: #D8D8D8;
+            background-color: rgb(37, 36, 36);
+            padding: 40px 60px;
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            background-color: #3A404E;
+            color: white;
+        }
+
+        input[type=date] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            background-color: #3A404E;
+            color: white;
+
+        }
+
+
+
+        input[type=number] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            background-color: #3A404E;
+            color: white;
+
+
+        }
+
+        input[type=submit] {
+            background-color: #F05700;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            font-size: 16px;
+
+        }
+
+        .divEstilizada {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <form id="myForm">
+            <h2>Gerador de Torneio</h2>
+            Nome do Torneio:
+            <p><input id="nomeT" type="text" name="Tnome"></p>
+
+            Data de início:
+            <p><input id="dateI" type="date" name="Idate"></p>
+
+            Data de fim:
+            <p><input id="dateF" type="date" name="Fdate"></p>
+
+            Número de participantes:
+            <p><input id="numberP" type="number" name="Nparticipantes" min="2" max="8" step="x"></p>
+
+            <p><input type="submit" id="meuid" value="Gerar" onclick="gerarInformacoes()"></p>
+        </form>
+    </div>
+</body>
+
+</html>

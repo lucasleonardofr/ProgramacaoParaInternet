@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="conteudo1">
+        Meu nome é Lucas Leonardo, sou cientista da computação.
+    </p>
+    <p id="conteudo2">
+        Sou torcerdor do São Paulo, gosto de pizza.
+    </p>
+    <button onclick="changeConteudo()">Mudar</button>
+
+    <script>
+        function changeConteudo() {
+            var texto1 = document.getElementById("conteudo1").innerHTML;
+            var texto2 = document.getElementById("conteudo2").innerHTML;
+
+            document.getElementById("conteudo1").innerHTML = texto2;
+            document.getElementById("conteudo2").innerHTML = texto1;
+
+        }
+    </script>
+
+
+</body>
+
+</html>

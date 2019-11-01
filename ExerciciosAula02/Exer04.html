@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercicio 04</title>
+    <style>
+        caption {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        table {
+            width: 400px;
+        }
+
+        li.disc {
+            list-style-type: disc;
+        }
+
+        li.circ {
+            list-style-type: circle;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Sudeste x Sul</caption>
+        <tr>
+            <th colspan="2">Estados</th>
+            <th>Cidades</th>
+        </tr>
+        <tr>
+            <td rowspan="4">Sudeste</td>
+            <td>São Paulo</td>
+            <td>
+                <ul>
+                    <li class="disc"><i>São Paulo</i></li>
+                    <li class="disc"><i>Guarulhos</i></li>
+                    <li class="disc"><i>Campinas</i></li>
+                </ul>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td>
+                <ol type="1">
+                    <li><i>Rio de Janeiro</i></li>
+                    <li><i>São Gonçalo</i></li>
+                    <li><i>Duque de Caxias</i></li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Minas Gerais</td>
+            <td>
+                <ul>
+                    <li class="circ"><i>Belo Horizonte</i></li>
+                    <li class="circ"><i>Uberlândia</i></li>
+                    <li class="circ"><i>Contagem</i></li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Espírito Santo</td>
+            <td>
+                <ol type="I">
+                    <li><i>Vila Velha</i></li>
+                    <li><i>Serra</i></li>
+                    <li><i>Cariacica</i></li>
+                </ol>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td rowspan="3">Sul</td>
+            <td>Rio Grande do Sul</td>
+            <td>
+                <ol type="a">
+                    <li><i>Porto Alegre</i></li>
+                    <li><i>Caxias do Sul</i></li>
+                    <li><i>Pelotas</i></li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Paraná</td>
+            <td>
+                <ul>
+                    <li class="disc"><i>Curitiba</i></li>
+                    <li class="disc"><i>Londrina</i></li>
+                    <li class="disc"><i>Maringá</i></li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Santa Cantarina</td>
+            <td>
+                <ol type="1">
+                    <li><i>Joinville</i></li>
+                    <li><i>Florianópolis</i></li>
+                    <li><i>Blumenau</i></li>
+                </ol>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

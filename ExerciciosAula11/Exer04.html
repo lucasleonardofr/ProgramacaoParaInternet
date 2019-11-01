@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Tabela</h2>
+    <br>
+
+    <div id="myDiv">
+        <table style="width:50%">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+    </div>
+    </table>
+    <br>
+    <button onclick="colocarZebrado()">Colocar Zebrado</button>
+    <button onclick="tirarZebrado()">Tirar Zebrado</button>
+
+    <script>
+        function colocarZebrado() {
+            var y = document.getElementsByTagName("tr");
+            var i;
+            for (i = 0; i < y.length; i++) {
+                if (i % 2 != 0) {
+                    y[i].style.backgroundColor = "grey";
+                }
+            }
+        }
+
+
+        function tirarZebrado() {
+            var y = document.getElementsByTagName("tr");
+            var i;
+            for (i = 0; i < y.length; i++) {
+                if (i % 2 != 0) {
+                    y[i].style.backgroundColor = "initial";
+                }
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

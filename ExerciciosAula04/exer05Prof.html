@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <style>
+        .item1 {
+            grid-area: linha1;
+        }
+
+        .item2 {
+            grid-area: linha2;
+        }
+
+        .item3 {
+            grid-area: linha3;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+            'linha1 linha1 linha1 linha1'
+            'linha2 linha2 linha2 linha2 linha2'
+            'linha3 linha3 linha3';
+            grid-gap: 10px;
+            background-color: rgb(77, 77, 224);
+            padding: 10px;
+        }
+
+        .grid-container > div{
+        background-color: beige;
+        padding: 20px 0;
+        text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item1">1</div>
+        <div class="item1">1</div>
+        <div class="item1">1</div>
+        <div class="item2">1</div>
+        <div class="item2">2</div>
+        <div class="item2">2</div>
+        <div class="item2">2</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item3">3</div>
+        <div class="item3">3</div>
+    </div>
+</body>
+
+</HTML>

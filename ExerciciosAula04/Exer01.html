@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-row-gap: 10px;
+            grid-column-gap: 30px;
+        }
+
+        .grid-container>div {
+            text-align: center;
+            /* border: 1px solid black;*/
+
+        }
+
+        .grid-item-1 {
+            grid-row: 1/4;
+            height: 420px;
+            width: 200px;
+            border-radius: 5px;
+            background-color: #f5f5f5;
+            justify-content: initial;
+            align-items: center;
+            padding: 0px;
+            margin: 0px;
+
+
+        }
+
+        .grid-item-1 a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: cornflowerblue;
+            display: flex;
+            padding-left: 12px;
+            padding-bottom: 10px;
+            margin: 0px;
+            text-decoration: none;
+            align-content: left;
+        }
+
+        .grid-item-1 a.efect:hover {
+            background-color: #137cc9;
+            color: white;
+        }
+
+        .grid-item-1 a.active {
+            color: grey;
+            font-weight: bold;
+            padding-top: 10px;
+            display: flex;
+            align-content: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+
+        }
+
+        .grid-item-2 {
+            grid-column: 2/5;
+            background-color: #eeeeee;
+            border-radius: 10px;
+            display: block;
+            align-content: left;
+            padding: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        .grid-item-2 h1 {
+            align-content: left;
+            display: flex;
+            margin-bottom: -20px;
+            font-size: 50px;
+
+        }
+
+        .grid-item-2 p {
+            align-content: left;
+            display: flex;
+            text-align: left;
+            line-height: 1.7;
+        }
+
+        .grid-item-2 button {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0C51C9;
+            color: white;
+            border-radius: 4px;
+            padding: 12px 28px;
+            display: flex;
+            align-content: left;
+        }
+
+        .grid-item-2 button:hover {
+            background-color: white;
+            color: blue;
+        }
+
+        .grid-item-3,
+        .grid-item-4,
+        .grid-item-5,
+        .grid-item-6,
+        .grid-item-7,
+        .grid-item-8 {
+            border-radius: 10px;
+            display: block;
+            align-content: left;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .grid-item-3 h1,
+        .grid-item-4 h1,
+        .grid-item-5 h1,
+        .grid-item-6 h1,
+        .grid-item-7 h1,
+        .grid-item-8 h1 {
+            align-content: left;
+            display: flex;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .grid-item-3 p,
+        .grid-item-4 p,
+        .grid-item-5 p,
+        .grid-item-6 p,
+        .grid-item-7 p,
+        .grid-item-8 p {
+
+            align-content: left;
+            display: flex;
+            text-align: left;
+            font-size: 12px;
+            padding-left: 20px;
+
+        }
+
+        .grid-item-3 button,
+        .grid-item-4 button,
+        .grid-item-5 button,
+        .grid-item-6 button,
+        .grid-item-7 button,
+        .grid-item-8 button {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 20px;
+            margin-bottom: 4px;
+            padding: 6px 18px;
+            display: flex;
+            align-content: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item-1">
+
+
+            <a href="" class="active">SIDEBAR</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+
+            <a href="" class="active">SIDEBAR</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+
+            <a href="" class="active">SIDEBAR</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+            <a href="" class="efect">Link</a>
+
+
+        </div>
+        <div class="grid-item-2">
+            <h1>Hello, world!</h1>
+            <p> Lorem ipsum sociosqu nam eu cras enim amet malesuada taciti, libero eu torquent libero arcu aenean
+                maecenas eget. volutpat vehicula habitant risus justo vehicula inceptos donec magna, himenaeos iaculis
+                nisl fames vestibulum quis donec molestie Lorem ipsum sociosqu nam eu cras enim amet malesuada
+                taciti,nisl fames vestibulum quis donec molestie Lorem ipsum sociosqu nam eu cras enim amet malesuada
+                taciti.
+            </p>
+            <button>Learn More </button>
+        </div>
+        <div class="grid-item-3">
+            <h1>Heading</h1>
+            <p>
+                Lorem ipsum sociosqu nam eu cras enim amet malesuada taciti, libero eu torquent libero arcu aenean
+                maecenas eget. volutpat vehicula habitant risus justo vehicula inceptos donec magna, himenaeos iaculis
+                nisl fames vestibulum quis donec molestie ad
+            </p>
+            <button>View details >> </button>
+        </div>
+        <div class="grid-item-4">
+            <h1>Heading</h1>
+            <p>
+                Lorem ipsum sociosqu nam eu cras enim amet malesuada taciti, libero eu torquent libero arcu aenean
+                maecenas eget. volutpat vehicula habitant risus justo vehicula inceptos donec magna, himenaeos iaculis
+                nisl fames vestibulum quis donec molestie ad
+            </p>
+            <button>View details >> </button>
+        </div>
+        <div class="grid-item-5">
+            <h1>Heading</h1>
+            <p>
+                Lorem ipsum sociosqu nam eu cras enim amet malesuada taciti, libero eu torquent libero arcu aenean
+                maecenas eget. volutpat vehicula habitant risus justo vehicula inceptos donec magna, himenaeos iaculis
+                nisl fames vestibulum quis donec molestie ad
+            </p>
+            <button>View details >> </button>
+        </div>
+        <div class="grid-item-6">
+            <h1>Heading</h1>
+            <p>
+                Lorem ipsum sociosqu nam eu cras enim amet malesuada taciti, libero eu torquent libero arcu aenean
+                maecenas eget. volutpat vehicula habitant risus justo vehicula inceptos donec magna, himenaeos iaculis
+                nisl fames vestibulum quis donec molestie ad
+            </p>
+            <button>View details >> </button>
+        </div>
+        <div class="grid-item-7">
+            <h1>Heading</h1>
+            <p>
+                Lorem ipsum sociosqu nam eu cras enim amet malesuada taciti, libero eu torquent libero arcu aenean
+                maecenas eget. volutpat vehicula habitant risus justo vehicula inceptos donec magna, himenaeos iaculis
+                nisl fames vestibulum quis donec molestie ad
+            </p>
+            <button>View details >> </button>
+        </div>
+        <div class="grid-item-8">
+            <h1>Heading</h1>
+            <p>
+                Lorem ipsum sociosqu nam eu cras enim amet malesuada taciti, libero eu torquent libero arcu aenean
+                maecenas eget. volutpat vehicula habitant risus justo vehicula inceptos donec magna, himenaeos iaculis
+                nisl fames vestibulum quis donec molestie ad
+            </p>
+            <button>View details >> </button>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

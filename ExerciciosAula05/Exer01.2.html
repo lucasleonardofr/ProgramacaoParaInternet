@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input[type="text"] {
+            font-family: "Font Awesome 5 Free";
+            width: 555px;
+            height: 50px;
+            padding-left:15px;
+        }
+        textarea{
+            font-family: "Font Awesome 5 Free";
+            font-size: 20px;
+            padding-left:13px;
+          
+
+        }
+
+        .container {
+            background-color: rgb(142, 61, 218);
+            margin: 0 auto;
+            text-align: center;
+            width: 700px;
+            height: 700px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+
+        }
+
+        input {
+            font-size: 20px;
+        }
+
+        .imgLay {
+            background-image: url("background.jpg");
+            /*background-color: #cccccc;*/
+            height: 150px;
+            background-position: center;
+            border-radius: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+
+        .text {
+            text-align: center;
+            padding-top: 30px;
+            font-weight: bold;
+            font-size: 30px;
+            color: white;
+        }
+
+
+        .formulario {
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: -20px;
+            height: 584px;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .formularioDados {
+            padding: 40px;
+        }
+
+       
+
+        input[type="submit"] {
+            background-color: rgb(142, 61, 218);
+            width: 25%;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size:12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="imgLay">
+            <div class="text">
+                <br>CONTACT US
+            </div>
+        </div>
+        <div class="formulario">
+            <div class="formularioDados">
+                <p> <label for="text"><input type="text" id="text" name="text"
+                            placeholder="&#xf007     Full name"></label></p>
+                <p> <label for="text"><input type="text" id="text" name="text"
+                            placeholder="&#xf0e0    Eg.example@email.com"></label></p>
+                <p> <label for="text"><input type="text" id="text" name="text"
+                            placeholder="&#xf2b9    Eg.+1 800 000000"></label></p>
+
+                <p><textarea name="mensagem" rows="8" cols="45" placeholder=" &#xf086   Your comments"></textarea>
+                </p>
+                <p><input type="submit" name="enviar" value="SEND NOW" class="botao"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

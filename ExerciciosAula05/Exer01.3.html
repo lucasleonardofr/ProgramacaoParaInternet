@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .container {
+            border-color: #00B241;
+            border-style: solid;
+            margin: 0 auto;
+            text-align: center;
+            width: 660px;
+            height: 710px;
+
+
+        }
+
+        .container h1,
+        h4 {
+            display: flex;
+            margin-left: 30px;
+            padding-left: 10px;
+            color: grey;
+
+        }
+
+        h1 {
+            font-weight: normal;
+            font-size: 40px;
+        }
+
+        h4 {
+            font-weight: normal;
+            font-size: 22px;
+        }
+
+
+        input[type="text"] {
+            width: 555px;
+            height: 50px;
+            padding-left: 15px;
+            font-size: 16px;
+        }
+
+
+        input[type="submit"] {
+            background-color: #00B241;
+            width: 87%;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 7px;
+        }
+
+        textarea {
+            width: 87%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            font-size: 16px;
+            resize: none;
+            font-family: Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            <h1>Colorlib Contact Form</h1>
+        </p>
+        <p>
+            <h4>Contact us for custom quote</h4>
+        </p>
+        <p><input type="text" size="40" name="nome" placeholder="Your name"></p>
+        <p><input type="text" size="40" name="email" placeholder="Your Email Address"></p>
+        <p><input type="text" size="40" name="number" placeholder="Your Phone Number (optional)"></p>
+        <p><input type="text" size="40" name="web" placeholder="Your Web Site (optional)"></p>
+        <p><textarea name="mensagem" rows="8" cols="45" placeholder="Type your message here...."></textarea>
+        </p>
+
+        <p><input type="submit" name="enviar" value="Submit" class="botao"></p>
+
+    </div>
+</body>
+
+</html>

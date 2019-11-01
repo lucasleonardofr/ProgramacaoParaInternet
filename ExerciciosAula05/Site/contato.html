@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #474D5D;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding-left: 28%;
+            overflow: hidden;
+            background-color: #262B37;
+        }
+
+        li {
+            float: left;
+
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 13px 16px;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .contato1 {
+
+            float: left;
+            width: 22%;
+            margin-left: 10%;
+            margin-top: 5%;
+            height: 400px;
+            padding-left: 40px;
+            padding-top: 27px;
+        }
+
+        a.lattes {
+            text-decoration: none;
+            color: white;
+        }
+
+        .contato2 {
+
+            float: right;
+            width: 56%;
+            margin-top: 5%;
+            margin-right: 5%;
+            height: 400px;
+            padding-right: 30px;
+            padding-top: 15px;
+
+        }
+
+        label {
+            padding-left: 6px;
+        }
+
+        input {
+            background-color: #585F73;
+            border-style: none;
+        }
+
+        input[type="text"] {
+            font-family: 'Open Sans', sans-serif;
+            width: 368px;
+            height: 50px;
+            padding-left: 15px;
+            color: white;
+
+        }
+
+        .tit2 {
+            padding-left: 6px;
+            padding-top: 10px;
+        }
+
+        .cont2 {
+            padding-top: 20px;
+        }
+
+        .textA {
+            padding-left: 6px;
+            padding-top: 20px;
+        }
+
+        textarea {
+            font-family: 'Open Sans', sans-serif;
+            width: 758px;
+            padding-left: 15px;
+            background-color: #585F73;
+            border-style: none;
+
+        }
+
+        .botao {
+
+            float: right;
+            margin-right: 7.1%;
+        }
+
+        input[type="submit"] {
+            font-size: 18px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: italic;
+            background-color: #F5534B;
+            color: white;
+            padding: 18px 30px;
+        }
+
+        .fa-map-marker-alt,
+        .fa-envelope,
+        .fa-mobile-alt,
+        .fa-link {
+            padding-right: 10px;
+        }
+
+        .fa-instagram,
+        .fa-facebook-square{
+            padding-top: 50px;
+            padding-left: 10px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="experiencia.html">Experiência</a></li>
+                <li><a href="portifolio.html">Portifolios</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="contato1">
+            <h3>CONTATO</h3>
+            <p><i class="fas fa-map-marker-alt"></i>Ituiutaba - MG</p>
+            <p><i class="fas fa-mobile-alt"></i>(34) 99679-7475</p>
+            <p><i class="far fa-envelope"></i>lucasleonardofr@gmail.com</p>
+            <p><i class="fas fa-link"></i><a href="http://lattes.cnpq.br/1906329322522581" class="lattes">Currículo
+                    Lattes</a></p>
+
+        </div>
+        <div class="contato2">
+            <h3 class="tit2">DEIXE SUA MENSAGEM!</h3>
+            <p class="cont2"> <label for="text"><input type="text" id="text" name="text"
+                        placeholder="Seu nome..."></label>
+                <label for="text"><input type="text" id="text" name="text" placeholder="Seu email"></label></p>
+
+            <p class="textA"><textarea name="mensagem" rows="6" cols="45" placeholder="Sua mensagem..."></textarea>
+            </p>
+            <p class="botao"><input type="submit" name="enviar" value="Enviar" class="botao"></p>
+
+
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+        </div>
+    </div>
+</body>
+
+</html>

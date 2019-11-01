@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="myscript.js"></script>
+    <title>Exer 05</title>
+
+    <style>
+        body {
+            background-color: rgb(192, 190, 185);
+        }
+
+        #cracha {
+            padding: 30px;
+            margin: 0 auto;
+            border-style: hidden;
+            border-radius: 10px;
+            border-color: black;
+            width: 280px;
+            height: 450px;
+            text-align: center;
+            background-color: white;
+        }
+
+        hr.hrCima {
+            background-color: black;
+            height: 6px;
+            width: 60px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+
+        }
+
+        hr.hrBaixo {
+            height: 6px;
+            background: url(http://ibrahimjabbari.com/images/hr-12.png) repeat-x 0 0;
+            border: 0;
+        }
+
+        p#logo {
+            display: block;
+
+        }
+
+        span#cxlogo {
+            display: none;
+        }
+
+        p#nomeEmp {
+            display: block;
+            padding-top: 10px;
+        }
+
+        span#cxnomeEmp {
+            display: none;
+        }
+
+        p#nome {
+            display: block;
+
+        }
+
+        span#cxnome {
+            display: none;
+        }
+
+        p#funcao {
+            display: block;
+            padding-top: 10px;
+        }
+
+        span#cxfuncao {
+            display: none;
+        }
+
+        img {
+            height: 140px;
+            width: 140px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    </style>
+    <title>Exer05</title>
+</head>
+
+<body>
+
+    <div id="cracha">
+        <hr class="hrCima">
+        <p id="logo">
+            <span id="txtlogo" onclick="alterar('txtlogo','cxlogo','inplogo')">Sua Logo</span>
+            <span id="cxlogo">
+                <input type="text" id="inplogo" value="">
+                <button id="btlogo" onclick="atualizar('txtlogo','cxlogo','inplogo')">Atualizar</button>
+            </span>
+        </p>
+        <p id="nomeEmp">
+            <span id="txtnomeEmp" onclick="alterar('txtnomeEmp','cxnomeEmp','inpnomeEmp')">Nome da empresa</span>
+            <span id="cxnomeEmp">
+                <input type="text" id="inpnomeEmp" value="">
+                <button id="btlogo" onclick="atualizar('txtnomeEmp','cxnomeEmp','inpnomeEmp')">Atualizar</button>
+            </span>
+        </p>
+        <img src="usuario.png"><br>
+        <hr class="hrBaixo">
+        <p id="nome">
+            <span id="txtnome" onclick="alterar('txtnome','cxnome','inpnome')">Nome do Funcionário</span>
+            <span id="cxnome">
+                <input type="text" id="inpnome" value="">
+                <button id="btlogo" onclick="atualizar('txtnome','cxnome','inpnome')">Atualizar</button>
+            </span>
+        </p>
+        <p id="funcao">
+            <span id="txtfuncao" onclick="alterar('txtfuncao','cxfuncao','inpfuncao')">Função do Funcionário</span>
+            <span id="cxfuncao">
+                <input type="text" id="inpfuncao" value="">
+                <button id="btlogo" onclick="atualizar('txtfuncao','cxfuncao','inpfuncao')">Atualizar</button>
+            </span>
+    </div>
+
+
+
+</body>
+
+</html>

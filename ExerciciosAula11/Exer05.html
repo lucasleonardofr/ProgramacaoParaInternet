@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="conteudo1">
+        Meu nome é Lucas Leonardo, sou cientista da computação.
+    </p>
+    <input id="cx1" type="text">
+    <button onclick="changeConteudo()">Mudar</button>
+
+    <script>
+        function changeConteudo() {
+            var texto = document.getElementById("cx1").value;
+            document.getElementById("conteudo1").innerHTML = texto;
+        }
+    </script>
+
+
+</body>
+
+</html>
